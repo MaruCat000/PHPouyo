@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* 基本のフォント設定 */
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    background-color: #f7f9f9; /* Twitterっぽい薄いグレー */
+    color: #0f1419;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #1d9bf0; /* Twitterブルー */
+}
+
+/* テーブル全体のスタイル */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden; /* 角丸を適用するため */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* ヘッダー部分 */
+th {
+    background-color: #f7f9f9;
+    color: #536471;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 2px solid #eff3f4;
+}
+
+/* データセル部分 */
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eff3f4;
+    vertical-align: middle;
+}
+
+/* 行のホバー効果（マウスを乗せた時に色を変える） */
+tr:hover {
+    background-color: #f7f9f9;
+}
+
+/* ボタンのスタイル */
+input[type="submit"] {
+    background-color: #1d9bf0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 9999px; /* 丸いボタン */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #1a8cd8;
+}
+
+/* リンクのスタイル */
+a {
+    color: #1d9bf0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
